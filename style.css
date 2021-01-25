@@ -1,0 +1,100 @@
+/* GLOBAL CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+html{
+	font-size: 62,5%;
+}
+
+h1{
+	font-size: 2,6rem;
+}
+
+h2{
+	font-size: 4,8rem;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+h4,
+h5{
+	font-size: 2,8rem;
+}
+
+li{
+	font-size: 1rem;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+body{
+	font-family:'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+.main-head{
+	background: red;
+	color: black;
+	
+}
+
+nav{
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 2rem;
+
+}
+
+nav ul{
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+#logo{
+	flex: 2 1 40rem;
+	font-family: 'Fredoka One', cursive;
+	font-weight: normal;
+}
+
+/* HERO */
+.hero{
+	min-height: 90vh;
+	background:linear-gradient(rgb(0,0,0,4),transparent), url(https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/10/34/103444_v2.jpeg);
+	background-size:cover;
+	background-position:bottom;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h3{
+	padding: 4rem;
+}
+
+button{
+	padding: 2rem 4rem;
+	background: red;
+	font-size: 1,8rem;
+	cursor: pointer;
+	border: none;
+}
